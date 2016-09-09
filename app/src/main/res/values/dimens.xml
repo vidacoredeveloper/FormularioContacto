@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="acividad_confirmar_datos_tamanho_titulo">30dp</dimen>
+    <dimen name="acividad_confirmar_datos_tamanho_texto_componentes">20dp</dimen>
+    <dimen name="acividad_confirmar_datos_tamanho_padding_componentes">80dp</dimen>
+    <dimen name="actividad_confirmar_datos_labels">130dp</dimen>
+    <dimen name="actividad_confirmar_datos_margin">5dp</dimen>
+    <dimen name="actividad_confirmar_datos_margin_top_titulo_date">20dp</dimen>
+    <dimen name="actividad_confirmar_datos_margin_bot_titulo_date">-10dp</dimen>
+    <dimen name="actividad_confirmar_datos_margin_bot_date">-25dp</dimen>
+</resources>

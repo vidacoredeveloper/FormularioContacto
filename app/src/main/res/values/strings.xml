@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FormularioContacto</string>
+    <string name="activida_principal_nombre_contacto">Nombre Completo</string>
+    <string name="activida_principal_fecha_contacto">Fecha Nacimiento</string>
+    <string name="activida_principal_telefono_contacto">Telefono</string>
+    <string name="activida_principal_email_contacto">Email</string>
+    <string name="activida_principal_descripcion_contacto">Descripcion</string>
+    <string name="activida_principal_texto_boton_siguiente">Siguiente</string>
+
+    <string name="key_nombre_contacto">nombreContacto</string>
+    <string name="key_fecha_nacimiento_contacto_dia">diaNacimientoContacto</string>
+    <string name="key_fecha_nacimiento_contacto_mes">mesNacimientoContacto</string>
+    <string name="key_fecha_nacimiento_contacto_anho">anhoNacimientoContacto</string>
+    <string name="key_telefono_contacto">telefonoContacto</string>
+    <string name="key_email_contacto">emailContacto</string>
+    <string name="key_descripcion_contacto">descripcionContacto</string>
+    
+    <string name="actividad_confirmar_datos_titulo">Confirmar Datos</string>
+    <string name="actividad_confirmar_datos_boton_editar">Editar Datos</string>
+    <string name="actividad_confirmar_datos_label_nombre">Nombre:</string>
+    <string name="actividad_confirmar_datos_label_fecha">Fecha:</string>
+    <string name="actividad_confirmar_datos_label_telefono">Telefono:</string>
+    <string name="actividad_confirmar_datos_label_email">Email:</string>
+    <string name="actividad_confirmar_datos_label_descripcion">Descripcion:</string>
+</resources>

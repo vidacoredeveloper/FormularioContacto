@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.coursera.formulariocontacto.ActividadConfirmarDatos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvActividadConfirmarDatosTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/actividad_confirmar_datos_titulo"
+            android:textSize="@dimen/acividad_confirmar_datos_tamanho_titulo"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/acividad_confirmar_datos_tamanho_padding_componentes"/>
+
+        <LinearLayout
+            android:id="@+id/llActividadConfirmarDatosNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/actividad_confirmar_datos_margin">
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosLabelNombreContacto"
+                android:layout_width="@dimen/actividad_confirmar_datos_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/actividad_confirmar_datos_label_nombre"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"
+                />
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosNombreContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llActividadConfirmarDatosFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/actividad_confirmar_datos_margin">
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosLabelFechaNacimientoContacto"
+                android:layout_width="@dimen/actividad_confirmar_datos_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/actividad_confirmar_datos_label_fecha"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"
+                />
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosFechaNacimientoContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llActividadConfirmarDatosTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/actividad_confirmar_datos_margin">
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosLabelTelefonoContacto"
+                android:layout_width="@dimen/actividad_confirmar_datos_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/actividad_confirmar_datos_label_telefono"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"
+                />
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosTelefonoContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llActividadConfirmarDatosEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/actividad_confirmar_datos_margin">
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosLabelEmailContacto"
+                android:layout_width="@dimen/actividad_confirmar_datos_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/actividad_confirmar_datos_label_email"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"
+                />
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosEmailContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llActividadConfirmarDatosDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/actividad_confirmar_datos_margin">
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosLabelDescripcionContacto"
+                android:layout_width="@dimen/actividad_confirmar_datos_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/actividad_confirmar_datos_label_descripcion"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"
+                />
+
+            <TextView
+                android:id="@+id/tvActividadConfirmarDatosDescripcionContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEditarDatosContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/acividad_confirmar_datos_tamanho_texto_componentes"
+            android:text="@string/actividad_confirmar_datos_boton_editar"
+            android:onClick="editarContacto"
+            android:layout_marginTop="@dimen/acividad_confirmar_datos_tamanho_padding_componentes"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/letraBoton"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
